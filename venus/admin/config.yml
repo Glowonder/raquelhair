@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: Glowonder/raquelhair
+  branch: main
+
+media_folder: "venus/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "products"
+    label: "Produits"
+    label_singular: "Produit"
+    files:
+      - name: "catalogue"
+        label: "Catalogue"
+        file: "venus/data/products.json"
+        fields:
+          - label: "Produits"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.price}}"
+            fields:
+              - { label: "Nom du produit", name: "name", widget: "string" }
+              - label: "Catégorie"
+                name: "cat"
+                widget: "select"
+                options: ["Naturelles", "Synthétiques", "Lace Front", "Closures & Frontals", "Accessoires"]
+              - { label: "Longueur / format", name: "length", widget: "string" }
+              - { label: "Prix (ex: 89€)", name: "price", widget: "string" }
+              - { label: "Photo produit", name: "image", widget: "image", required: false }
+              - { label: "Lien de paiement Stripe", name: "stripeLink", widget: "string", required: false, hint: "Collez ici l'URL Stripe (https://buy.stripe.com/...) une fois créée dans votre compte Stripe." }
