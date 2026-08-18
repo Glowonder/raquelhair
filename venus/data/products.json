@@ -1,0 +1,24 @@
+{
+  "products": [
+    { "name": "Mèches Brésiliennes Lisses", "cat": "Naturelles", "length": "18\" / 45cm", "price": "89€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Brésiliennes Lisses", "cat": "Naturelles", "length": "24\" / 60cm", "price": "129€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Péruviennes Ondulées", "cat": "Naturelles", "length": "20\" / 50cm", "price": "99€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Péruviennes Ondulées", "cat": "Naturelles", "length": "26\" / 65cm", "price": "139€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Indiennes Bouclées", "cat": "Naturelles", "length": "18\" / 45cm", "price": "94€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Malaisiennes Deep Wave", "cat": "Naturelles", "length": "22\" / 55cm", "price": "119€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Kinky Curly", "cat": "Naturelles", "length": "16\" / 40cm", "price": "84€", "stripeLink": "", "image": "" },
+    { "name": "Body Wave Bundle x3", "cat": "Naturelles", "length": "20\" / 50cm", "price": "199€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Synthétiques Lisses", "cat": "Synthétiques", "length": "20\" / 50cm", "price": "29€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Synthétiques Ondulées", "cat": "Synthétiques", "length": "22\" / 55cm", "price": "34€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Synthétiques Crochet", "cat": "Synthétiques", "length": "14\" / 35cm", "price": "19€", "stripeLink": "", "image": "" },
+    { "name": "Mèches Braiding Pré-étirées", "cat": "Synthétiques", "length": "26\" / 65cm", "price": "12€", "stripeLink": "", "image": "" },
+    { "name": "Lace Front Wig Naturelle", "cat": "Lace Front", "length": "18\" / 45cm", "price": "249€", "stripeLink": "", "image": "" },
+    { "name": "Lace Front Wig Bouclée", "cat": "Lace Front", "length": "20\" / 50cm", "price": "279€", "stripeLink": "", "image": "" },
+    { "name": "HD Lace Front Wig Deep Wave", "cat": "Lace Front", "length": "24\" / 60cm", "price": "329€", "stripeLink": "", "image": "" },
+    { "name": "Closure 4x4 Lisse", "cat": "Closures & Frontals", "length": "16\" / 40cm", "price": "59€", "stripeLink": "", "image": "" },
+    { "name": "Frontal 13x4 Ondulé", "cat": "Closures & Frontals", "length": "18\" / 45cm", "price": "89€", "stripeLink": "", "image": "" },
+    { "name": "Frontal HD 13x6", "cat": "Closures & Frontals", "length": "20\" / 50cm", "price": "109€", "stripeLink": "", "image": "" },
+    { "name": "Spray Entretien Brillance", "cat": "Accessoires", "length": "150ml", "price": "16€", "stripeLink": "", "image": "" },
+    { "name": "Kit Peignes & Pinces Pro", "cat": "Accessoires", "length": "Set complet", "price": "22€", "stripeLink": "", "image": "" }
+  ]
+}

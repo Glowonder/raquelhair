@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Vénus Hair</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="logo">Vénus <span>Hair</span></a>
+    <nav class="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="catalogue.html">Catalogue</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="mobile-toggle" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Nous écrire</div>
+    <h1>Contact</h1>
+  </div>
+</div>
+
+<section>
+  <div class="wrap contact-grid">
+    <div>
+      <h2 style="font-style:italic; margin-bottom:18px;">Une question ?</h2>
+      <p style="color:#55483d; font-weight:300; margin-bottom:28px;">Livraison, entretien, taille des mèches, commande groupée — écrivez-nous, nous répondons sous 24h ouvrées.</p>
+
+      <div class="trust-item" style="margin-bottom:14px;">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="1.2"/><path d="M4 6l8 7 8-7" stroke="currentColor" stroke-width="1.2"/></svg>
+        contact@venushair.fr
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 7h13v9H3z" stroke="currentColor" stroke-width="1.2"/></svg>
+        Livraison en France sous 2 à 5 jours ouvrés
+      </div>
+    </div>
+
+    <form onsubmit="event.preventDefault(); showToast('Message envoyé ! Nous revenons vers vous sous 24h.'); this.reset();">
+      <div class="form-field">
+        <label>Nom</label>
+        <input type="text" required>
+      </div>
+      <div class="form-field">
+        <label>E-mail</label>
+        <input type="email" required>
+      </div>
+      <div class="form-field">
+        <label>Sujet</label>
+        <select>
+          <option>Question produit</option>
+          <option>Suivi de commande</option>
+          <option>Retour / échange</option>
+          <option>Autre</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label>Message</label>
+        <textarea required></textarea>
+      </div>
+      <button type="submit" class="btn btn-wine">Envoyer le message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© 2026 Vénus Hair. Tous droits réservés.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="products.js"></script>
+</body>
+</html>
