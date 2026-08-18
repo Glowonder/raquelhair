@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: VOTRE-PSEUDO-GITHUB/NOM-DU-DEPOT   # à remplacer (voir COMMENT-DEMARRER.md étape 3)
+  repo: Glowonder/raquelhair  # à remplacer (voir COMMENT-DEMARRER.md étape 3)
   branch: main
 
 # Dossier où les photos uploadées via l'admin seront stockées,
